@@ -1,16 +1,98 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "精美视屏"
+			}
+		},
+		{
+			"path": "pages/videoPlay/index",
+			"style": {
+				"navigationBarTitleText": "视屏"
+			}
+		},
+		{
+			"path": "pages/imgCate/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
+			}
+		},
+		{
+			"path": "pages/recommendDec/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},
+		{
+			"path": "pages/imgDetail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/horizontal/index",
+			"style": {
+				"navigationBarTitleText": "横屏"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#000"
+	},
+	"tabBar": {
+		"list": [{
+		  "pagePath": "pages/home/index",
+		  "text": "首页",
+		  "selectedIconPath":"./static/icon/zhuye2.png",
+		  "iconPath":"./static/icon/zhuye.png"
+
+		},
+		 {
+			"pagePath": "pages/horizontal/index",
+			"text": "横屏",
+			"selectedIconPath":"./static/icon/tupianimgyulan2.png",
+			"iconPath":"./static/icon/tupianimgyulan.png"
+		},
+		{
+			"pagePath": "pages/video/index",
+			"text": "精美视屏",
+			"selectedIconPath":"./static/icon/sheyingji2.png",
+			"iconPath":"./static/icon/sheyingji.png"
+		},
+	    {
+          "pagePath": "pages/search/index",
+		  "text": "搜索",
+		  "selectedIconPath":"./static/icon/sousuo2.png",
+		  "iconPath":"./static/icon/sousuo.png"
+		},
+		{
+			"pagePath": "pages/mine/index",
+			"text": "我的",
+			"selectedIconPath":"./static/icon/wode2.png",
+			"iconPath":"./static/icon/wode.png"
+		}
+		
+	]
+	  }
 }

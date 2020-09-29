@@ -14,4 +14,6 @@
 
 <style>
 	/*每个页面公共css */
+	@import "./style/iconfint.wxss";
+	@import "./style/base.wxss"
 </style>
